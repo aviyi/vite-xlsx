@@ -8,9 +8,13 @@
   </head>
   <body>
     <script>
-          var global = global || window;
- 
-    global.cptable = {}; 
+    var global = global || window;
+    //fix for export excel
+    global.cptable = {};
+    global.QUOTE = {};
+    global._hashIndex = {};
+    global._listIndex = {};
+    global.style_builder = {};
     </script>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
